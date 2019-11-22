@@ -1,0 +1,25 @@
+
+{
+    "name": "szelepke/yii2-vue-smooth-dnd-asset",
+    "description": "Vue smooth dnd asset for Yii2 app",
+    "type": "yii2-extension",
+    "keywords": ["yii2","asset","vue","vuejs", "vue-smooth-dnd"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szelepcsenyi Zsolt",
+            "email": "szelepcsenyi.zsolt@e-vista.hu",
+            "homepage": "https://evista.hu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/vue-smooth-dnd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "szelepke\\vuesmoothdnd\\": ""
+        }
+    }
+}
