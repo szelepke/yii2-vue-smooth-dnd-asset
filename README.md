@@ -10,3 +10,10 @@ Run
 
 ```
 composer require szelepke/yii2-vue-smooth-dnd-asset "*"
+
+or add
+
+```
+"szelepke/yii2-vue-smooth-dnd-asset": "*"
+
+to the require section of your composer.json file.
