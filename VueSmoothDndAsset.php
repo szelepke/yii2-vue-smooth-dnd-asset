@@ -5,7 +5,6 @@
  * @package yii2-vue-smooth-dnd-asset
  */
 namespace szelepke\vuesmoothdnd;
-
 use yii\web\AssetBundle;
 use yii\web\View;
 /**
