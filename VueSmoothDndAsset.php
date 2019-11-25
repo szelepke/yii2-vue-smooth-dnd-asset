@@ -18,6 +18,7 @@ class VueSmoothDndAsset extends AssetBundle
     public $js = [
     	YII_ENV_DEV ? 'vue-smooth-dnd.js' : 'vue-smooth-dnd.min.js'
     ];
+
     public $jsOptions = [
         'position' => View::POS_HEAD,
     ];

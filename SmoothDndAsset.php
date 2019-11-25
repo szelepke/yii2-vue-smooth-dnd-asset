@@ -5,6 +5,7 @@
  * @package yii2-smooth-dnd-asset
  */
 namespace szelepke\vuesmoothdnd;
+
 use yii\web\AssetBundle;
 use yii\web\View;
 /**
@@ -18,6 +19,7 @@ class SmoothDndAsset extends AssetBundle
     public $js = [
     	'index.js'
     ];
+
     public $jsOptions = [
         'position' => View::POS_HEAD,
     ];
