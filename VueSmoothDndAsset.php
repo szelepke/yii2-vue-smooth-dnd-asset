@@ -17,7 +17,6 @@ class VueSmoothDndAsset extends AssetBundle
     public $sourcePath = '@npm/vue-smooth-dnd/dist';
     
     public $js = [
-        'vue-smooth-dnd.esm.js',
     	YII_ENV_DEV ? 'vue-smooth-dnd.js' : 'vue-smooth-dnd.min.js'
     ];
 
