@@ -25,5 +25,6 @@ class VueSmoothDndAsset extends AssetBundle
 
     public $depends = [
         'szelepke\vue\VueAsset',
+        'szelepke\vuesmoothdnd\SmoothDndAsset',
     ];
 }
