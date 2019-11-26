@@ -22,4 +22,8 @@ class VueSmoothDndAsset extends AssetBundle
     public $jsOptions = [
         'position' => View::POS_HEAD,
     ];
+
+    public $depends = [
+        'szelepke\vue\VueAsset',
+    ];
 }
